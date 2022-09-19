@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: brown;
+    color: azure;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    padding: 30px;
+    border: 1px solid #fafafa;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input {
+    border: no;
+    border-radius: 10px;
+    padding: 10px;
+}
+button {
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+h4 {
+    padding: 10px;
+}
+p {
+    padding: 20px;
+}
